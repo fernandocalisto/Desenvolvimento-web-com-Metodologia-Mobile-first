@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>AluraBooks</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <span class="header-nav container-image"></span>
+            <input type="checkbox" id="menu" class="container-btn">
+            <label for="menu">
+                <span class="header-nav container-image"></span>
+            </label>
+            <ul class="menu-list">
+                <li class="menu-list-title">Categorias</li>
+                <li class="menu-list-item">
+                    <a class="menu-list-link" href="#">Programação</a>
+                </li>
+                <li class="menu-list-item">
+                    <a class="menu-list-link" href="#">Front-end</a>
+                </li>
+                <li class="menu-list-item">
+                    <a class="menu-list-link" href="#">Infraestrutura</a>
+                </li>
+                <li class="menu-list-item">
+                    <a class="menu-list-link" href="#">Business</a>
+                </li>
+                <li class="menu-list-item">
+                    <a class="menu-list-link" href="#">Design & UX</a>
+                </li>
+            </ul>
             <img src="/imagens/Logo.svg" class="container-image" alt="AluraBooks Logo">
         </div>
         <div class="container">
